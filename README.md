@@ -1,4 +1,4 @@
-# Shrimp Cultivation Monitoring and Forecasting for Jala Apps
+# Shrimp Cultivation Monitoring and Forecasting for Jala Technology
 
 This repository contains code and models for monitoring and forecasting shrimp cultivation used in Jala Apps.
 
@@ -7,7 +7,7 @@ This repository contains code and models for monitoring and forecasting shrimp c
 This project utilizes machine learning to monitor and predict various aspects of shrimp cultivation, including:
 
 - Shrimp growth
-- Water quality
+- Water quality prediction
 - Harvest yield forecasting
 - Revenue forecasting
 
@@ -25,7 +25,7 @@ To use this project, follow these steps:
    pip install -r requirements.txt
    ```
 
-3. Download the Python notebook and trained model from [file_link] and save them in the project directory.
+3. Download the Python notebook and trained model. Save them in the project directory.
 
 4. Open the Python notebook using Jupyter Notebook or your preferred IDE.
 
@@ -36,7 +36,6 @@ To use this project, follow these steps:
 - `notebooks/`: Contains Jupyter notebooks for analysis and visualization
 - `models/`: Contains trained machine learning models
 - `data/`: Place to store datasets (not included in the repository)
-- `scripts/`: Additional Python scripts for data processing and utilities
 
 ## Contribution
 
@@ -49,7 +48,7 @@ We plan to develop this project into a web-based application using Streamlit. An
 Planned features include:
 - User-friendly web interface for data input and result visualization
 - Real-time dashboard for shrimp cultivation monitoring
-- Integration with notification systems for early warnings
+- Integration with RAG-LLM to be a Chatbot Shrimp Farming Consultant
 
 
 ## Contact
